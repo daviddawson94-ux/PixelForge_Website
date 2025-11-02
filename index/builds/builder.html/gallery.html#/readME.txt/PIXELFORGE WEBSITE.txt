@@ -1,0 +1,32 @@
+PIXELFORGE WEBSITE
+==================
+
+Open 'index.html' in your browser to view the site.
+
+Pages:
+- index.html        Home page (animated RGB gradient, preloader)
+- builds.html       Custom prebuilt gaming PCs
+- builder.html      Interactive PC builder simulator
+- gallery.html      Showcase of RGB setups
+- contact.html      Contact form and socials
+
+Folder Layout:
+- css/style.css     All site styling
+- js/main.js        Preloader fade effect
+- js/builder.js     PC builder price + image logic
+- images/           Logo + Unsplash photos
+
+Unsplash Image Credits:
+1. https://unsplash.com/photos/photo-1606813903093-0a3b5a8d1c31
+2. https://unsplash.com/photos/photo-1605902711622-cfb43c4437e1
+3. https://unsplash.com/photos/photo-1593642632559-0c3ba5d22b53
+4. https://unsplash.com/photos/photo-1618213837799-3b1aa47f76a2
+5. https://unsplash.com/photos/photo-1603791440384-56cd371ee9a7
+
+How to Run:
+1. Open 'index.html' in Chrome, Edge, Safari, or Firefox.
+2. To make changes, edit HTML files in any code editor.
+3. Compress the folder as 'PixelForge_Website.zip' to share.
+4. To publish online, upload the folder to GitHub Pages or Netlify.
+
+Created by ChatGPT for PixelForge — © 2025.
