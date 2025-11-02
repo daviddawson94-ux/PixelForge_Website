@@ -1,0 +1,32 @@
+import React, { useEffect, useRef } from "react";
+
+export default function RGBBackground() {
+  const ref = useRef();
+  useEffect(() => {
+    let grad = 0;
+    const animate = () => {
+      grad += 0.5;
+      if (ref.current) {
+        ref.current.style.background = `
+          radial-gradient(circle at 60% 40%, #00fff7 20%, transparent 60%),
+          radial-gradient(circle at 20% 80%, #ff00e6 20%, transparent 60%),
+          linear-gradient(120deg, hsl(${grad % 360},100%,60%) 0%, hsl(${(grad + 120)%360},100%,60%) 100%)
+        `;
+      }
+      requestAnimationFrame(animate);
+    };
+    animate();
+  }, []);
+  return (
+    <div
+      ref={ref}
+      className="fixed inset-0 -z-10 transition-colors duration-1000"
+      style={{
+        background: "black",
+        minHeight: "100vh",
+        willChange: "background"
+      }}
+      aria-hidden="true"
+    ></div>
+  );
+}
