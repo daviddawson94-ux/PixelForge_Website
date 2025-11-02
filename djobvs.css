@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: transparent;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #141414;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(120deg, #0ff 20%, #f0f 80%);
+  border-radius: 8px;
+}
